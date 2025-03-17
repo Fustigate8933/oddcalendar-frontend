@@ -34,7 +34,7 @@
 			/>
 		</div>
 		<ol class="list-decimal">
-			<li>Nagivate to <NuxtLink class="underline text-(--ui-warning)" to="https://odyssey.uwaterloo.ca/teaching/schedule">Odyssey</NuxtLink></li>
+			<li>Nagivate to <NuxtLink class="underline text-(--ui-warning)" to="https://odyssey.uwaterloo.ca/teaching/schedule" target="_blank">Odyssey</NuxtLink></li>
 			<li>Right click on the page</li>
 			<li>Select "<span class="text-rose-200">Save Page As...</span>"</li>
 			<li>Upload the download file</li>
