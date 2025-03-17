@@ -25,10 +25,11 @@
 
 			<UButton
 				label="Download ics"
-				icon="i-lucide-square-play"
+				icon="line-md:download-outline-loop"
 				target="_blank"
 				class="cursor-pointer"
 				:disabled="!htmlContent"
+				loading-auto
 				@click="downloadICS"
 			/>
 		</div>
@@ -67,8 +68,8 @@ const downloadICS = async () => {
 	console.log(htmlContent.value);
 
 	try {
-		// const uri = "https://oddcalendar-backend.onrender.com/download-calendar";
-		const uri = "http://127.0.0.1:8000/download-calendar";
+		const uri = "https://oddcalendar-backend.onrender.com/download-calendar";
+		// const uri = "http://127.0.0.1:8000/download-calendar";
 		const response = await fetch(uri, {
 			method: "POST",
 			headers: {
